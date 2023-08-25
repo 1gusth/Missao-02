@@ -1,0 +1,232 @@
+Missão 02
+
+01)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a,b;
+        System.out.print("Digite seu número 'A': ");
+        a = teclado.nextInt();
+        System.out.print("Digite seu número 'B': ");
+        b = teclado.nextInt();
+        if (a > b) {
+            System.out.println(a+" é maior que "+b);
+        } else {
+            if (a==b) {
+                System.out.println(b+" é igual a "+a);
+            } else {
+                System.out.println(b+" é maior que "+a);
+            }
+        }
+    }
+}
+
+02)
+
+PEDIN
+
+03)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a;
+        System.out.print("Digite seu número: ");
+        a = teclado.nextInt();
+        if (a%2==0) {
+            System.out.println("Seu número é par!");
+        } else {
+            System.out.println("Seu número NÃO é par!");
+        }
+    }
+}
+
+04)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a;
+        System.out.print("Digite seu número: ");
+        a = teclado.nextInt();
+        if (a%2==1) {
+            System.out.println("Seu número é ímpar!");
+        } else {
+            System.out.println("Seu número NÃO é ímpar!");
+        }
+    }
+}
+
+05)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int m,n;
+        System.out.print("Digite o valor de M: ");
+        m = teclado.nextInt();
+        System.out.print("Digite o valor de N: ");
+        n = teclado.nextInt();
+        if (m%n==0) {
+            System.out.println("M é divisível por N!");
+        } else {
+            System.out.println("M NÃO é divisível por N!");
+        }
+    }
+}
+
+06)
+
+PEDIN
+
+07)
+
+ package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        String sexo;
+        double altura, pesoIdeal;
+        System.out.print("Digite seu sexo: ");
+        sexo = teclado.next();
+        if (sexo.equals("masculino")) {
+            System.out.print("Digite sua altura: ");
+            altura = teclado.nextDouble();
+            pesoIdeal = (72.7*altura) - 58;
+            System.out.println("Seu peso ideal é: "+pesoIdeal);
+        } else {
+            if (sexo.equals("feminino")) {
+            System.out.print("Digite sua altura: ");
+            altura = teclado.nextDouble();
+            pesoIdeal = (62.1*altura) - 44.7;
+            System.out.println("Seu peso ideal é: "+pesoIdeal);  
+            }
+        }
+    }
+}
+
+08)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int idade;
+        System.out.print("Digite sua idade: ");
+        idade = teclado.nextInt();
+        if (idade >= 16) {
+            System.out.println("Você poderá votar!");
+        } else {
+            System.out.println("Você NÃO poderá votar!");
+        }
+    }
+}
+
+09)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a;
+        System.out.print("Digite seu número: ");
+        a = teclado.nextInt();
+        if (a<0) {
+            System.out.println("Seu número é negativo!");
+        } else {
+            if (a==0) {
+                System.out.println("Seu número é neutro!");
+            } else {
+                System.out.println("Seu número é positivo!");
+            }
+        }
+    }
+}
+
+10)
+
+PEDIN
+
+11)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        double a, b, c;
+        System.out.print("Digite seu número A: ");
+        a = teclado.nextDouble();
+        System.out.print("Digite seu número B: ");
+        b = teclado.nextDouble();
+        System.out.print("Digite seu número C: ");
+        c = teclado.nextDouble();
+        if (a<b+c & b<a+c & c<a+b) {
+            System.out.println("Podem ser os lados de um triângulo!");
+        } else {
+            System.out.println("NÃO podem ser os lados de um triângulo!");
+        }
+    }
+}
+
+12)
+
+XX
+
+13)
+
+XX
+
+14)
+
+XX
+
+15)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a;
+        System.out.print("Digite um número: ");
+        a = teclado.nextInt();
+        if (a>0 & a<=9) {
+            System.out.println("Número permitido!");
+        } else {
+            System.out.println("Número inválido!");
+        }
+    }
+}
+
+16)
+
+package exemplo.de.nat;
+import java.util.Scanner;
+        public class ExemploDeNat {
+        public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        int a,b;
+        System.out.print("Digite seu primeiro número: ");
+        a = teclado.nextInt();
+        System.out.print("Digite seu segundo número: ");
+        b = teclado.nextInt();
+        if ((a-b) < 0) {
+            System.out.println("A diferença é negativa!");
+        } else {
+            System.out.println("A diferença é positiva!");
+        }
+    }
+}
