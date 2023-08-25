@@ -230,3 +230,28 @@ import java.util.Scanner;
         }
     }
 }
+
+17)
+
+package gust;
+import java.util.Scanner;
+    public class Gust{
+    public static void main(String[] args) {
+    Scanner teclado = new Scanner(System.in);
+    double sBruto,valorEmp,qtdPrest,valorTotal,valorPrest;
+    System.out.print("Digite o salário bruto do cliente: ");
+    sBruto = teclado.nextDouble();
+    System.out.print("Digite o valor do empréstimo: ");
+    valorEmp = teclado.nextDouble();
+    System.out.print("Digite a quantidade de prestações: ");
+    qtdPrest = teclado.nextDouble();
+    valorTotal = (valorEmp+(valorEmp*0.25));
+    valorPrest = (valorTotal/qtdPrest);
+    if (valorPrest<=(sBruto*0.3)) {
+        System.out.println("Crédito aprovado!");
+    } else {
+        System.out.println("Crédito negado!");
+    }
+    }
+    
+}
